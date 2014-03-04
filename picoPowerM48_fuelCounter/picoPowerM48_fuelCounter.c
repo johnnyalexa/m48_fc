@@ -22,7 +22,7 @@
 #define LOOP_CNT			5U
 #define POWER_DOWN_TIMEOUT  10U
 
-#include <avr/delay.h>
+//#include <avr/delay.h>
 
 extern unsigned char state;
 extern uint16_t ticks;
