@@ -5,7 +5,6 @@
  *  Author: John
  */ 
 #include <avr/io.h>
-//#include <avr/delay.h>
 #include <avr/sleep.h>
 #include <avr/power.h>
 #include "picoPowerM48_fuelCounter.h"
