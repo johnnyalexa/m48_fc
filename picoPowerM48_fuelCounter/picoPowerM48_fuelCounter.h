@@ -9,11 +9,20 @@
 #ifndef PICOPOWERM48_FUELCOUNTER_H_
 #define PICOPOWERM48_FUELCOUNTER_H_
 
+// Define CPU speed
+// QTAL hz/4
+#define F_CPU					921600UL
 
+//No interrupts pending
 #define		IDLE				0x00U
+//Fuel counter recorded one impulse
 #define		IMPULSE				0x01U
+//Timer elapsed interrupt flag
 #define		ONE_SECOND_INT		0x02U
+//Timer elapsed interrupt and fuel counter
+//interrupt occurred almost simultaneously
 #define		BOTH_INTERRUPTS		0x03U
+//Interrupt when BT module is connected
 #define		BT_CONNECTED		0x04U
 
 
@@ -26,6 +35,7 @@
 #define		INTERVAL_2_HIGH		0x10FCUL // 4348
 #define		INTERVAL_3_HIGH		0x1B0EUL // 6926
 #define		INTERVAL_4_HIGH		0x2799UL // 10137
+
 #else
 
 //timer intervals for timer 2

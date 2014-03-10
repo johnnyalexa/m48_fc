@@ -21,34 +21,34 @@ static int tmr2_cnt=0;
  * Timer 1 Interrupt routine
  */
 ISR(TIMER1_COMPA_vect){
-	//OCR1A = 14400;
-//	seconds++;
-//	state |= ONE_SECOND_INT;	
-}	
+    //OCR1A = 14400;
+//    seconds++;
+//    state |= ONE_SECOND_INT;    
+}    
 
 /*
  * Timer 1 Interrupt routine
  */
 ISR(TIMER2_OVF_vect){
-	TCNT2 = 30;
-	tmr2_cnt += 225;
-	if(900 == tmr2_cnt){
-		seconds++;
-		tmr2_cnt = 0;
-	    state |= ONE_SECOND_INT;	
-	}		
+    TCNT2 = 30;
+    tmr2_cnt += 225;
+    if(900 == tmr2_cnt){
+        seconds++;
+        tmr2_cnt = 0;
+        state |= ONE_SECOND_INT;    
+    }        
 }
 
 /*
  * Fuel impulse signal interrupt routine
  */
 ISR(INT0_vect){
-	//ticks = TCNT1;
-	//TCNT1 = 0;
-	ticks = tmr2_cnt + TCNT2 - 30; //add counted timer minus tmr starting time (30)
-	tmr2_cnt = 0;  // reset sw counter
-	TCNT2 = 30;		//reset tmr2 counter to default for 4 hz
-	state |= IMPULSE;	
+    //ticks = TCNT1;
+    //TCNT1 = 0;
+    ticks = tmr2_cnt + TCNT2 - 30; //add counted timer minus tmr starting time (30)
+    tmr2_cnt = 0;  // reset sw counter
+    TCNT2 = 30;        //reset tmr2 counter to default for 4 hz
+    state |= IMPULSE;    
 }
 
 /*
@@ -56,6 +56,6 @@ ISR(INT0_vect){
  * Open BT connection 
  */
 ISR(INT1_vect){
-	state = BT_CONNECTED;	
-//	USART_Transmit('v');
+    state = BT_CONNECTED;    
+//    USART_Transmit('v');
 }
