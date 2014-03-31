@@ -97,4 +97,8 @@ void ADC_Init(void);
 // BT connected
 void Download_Function(void);
 
+// efuse = 0x01
+// hfuse = 0xDF
+// lfuse = 0x6B
+
 #endif /* PICOPOWERM48_FUELCOUNTER_H_ */

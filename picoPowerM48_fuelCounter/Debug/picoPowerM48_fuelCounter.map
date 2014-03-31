@@ -1,0 +1,641 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+                              picoPowerM48_fuelCounter.o (__udivmodhi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+                              m48Eeprom.o (__divmodhi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+                              picoPowerM48_fuelCounter.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+                              m48Eeprom.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+stat                0x1               m48Eeprom.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+ .text          0x00000000        0x0 BT_Connected.o
+ .bss           0x00000000        0x0 BT_Connected.o
+ .text          0x00000000        0x0 m48Eeprom.o
+ .bss           0x00000000        0x0 m48Eeprom.o
+ .text.EEPROM_write
+                0x00000000        0xe m48Eeprom.o
+ .text.EEPROM_read
+                0x00000000        0xc m48Eeprom.o
+ .text.EEPROM_saveData
+                0x00000000       0x6e m48Eeprom.o
+ .text.EEPROM_loadData
+                0x00000000       0x5a m48Eeprom.o
+ .text.EEPROM_GetCurrentPosition
+                0x00000000       0x7e m48Eeprom.o
+ .bss.FirstWrite
+                0x00000000        0x1 m48Eeprom.o
+ .bss.StatusBufferValue
+                0x00000000        0x1 m48Eeprom.o
+ .bss.BufferPtr
+                0x00000000        0x1 m48Eeprom.o
+ COMMON         0x00000000        0x1 m48Eeprom.o
+ .text          0x00000000        0x0 m48Functions.o
+ .bss           0x00000000        0x0 m48Functions.o
+ .text          0x00000000        0x0 m48Init.o
+ .bss           0x00000000        0x0 m48Init.o
+ .text.Init_Timer1
+                0x00000000       0x1a m48Init.o
+ .text.Timer1_Start
+                0x00000000        0xc m48Init.o
+ .text.Timer1_Stop
+                0x00000000        0xc m48Init.o
+ .text          0x00000000        0x0 M48Interrupts.o
+ .bss           0x00000000        0x0 M48Interrupts.o
+ .text          0x00000000        0x0 picoPowerM48_fuelCounter.o
+ .bss           0x00000000        0x0 picoPowerM48_fuelCounter.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x00000000       0x26 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+LOAD BT_Connected.o
+LOAD m48Eeprom.o
+LOAD m48Functions.o
+LOAD m48Init.o
+LOAD M48Interrupts.o
+LOAD picoPowerM48_fuelCounter.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x516
+ *(.vectors)
+ .vectors       0x00000000       0x34 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000034                . = ALIGN (0x2)
+                0x00000034                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000034        0x0 linker stubs
+ *(.trampolines*)
+                0x00000034                __trampolines_end = .
+ *(.progmem*)
+                0x00000034                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000034                __ctors_start = .
+ *(.ctors)
+                0x00000034                __ctors_end = .
+                0x00000034                __dtors_start = .
+ *(.dtors)
+                0x00000034                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000034        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+                0x00000034                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000034        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000040       0x16 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+                0x00000040                __do_copy_data
+ .init4         0x00000056       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+                0x00000056                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000066        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+ *(.init9)
+ *(.text)
+ .text          0x0000006a        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+                0x0000006a                __vector_22
+                0x0000006a                __vector_24
+                0x0000006a                __vector_12
+                0x0000006a                __bad_interrupt
+                0x0000006a                __vector_6
+                0x0000006a                __vector_3
+                0x0000006a                __vector_23
+                0x0000006a                __vector_25
+                0x0000006a                __vector_13
+                0x0000006a                __vector_17
+                0x0000006a                __vector_19
+                0x0000006a                __vector_7
+                0x0000006a                __vector_5
+                0x0000006a                __vector_4
+                0x0000006a                __vector_21
+                0x0000006a                __vector_15
+                0x0000006a                __vector_8
+                0x0000006a                __vector_14
+                0x0000006a                __vector_10
+                0x0000006a                __vector_16
+                0x0000006a                __vector_18
+                0x0000006a                __vector_20
+                0x0000006c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.Download_Function
+                0x0000006c       0xfe BT_Connected.o
+                0x0000006c                Download_Function
+ .text.USART_Transmit
+                0x0000016a       0x10 m48Functions.o
+                0x0000016a                USART_Transmit
+ .text.USART_Receive
+                0x0000017a       0x18 m48Functions.o
+                0x0000017a                USART_Receive
+ .text.USART_print
+                0x00000192       0x3c m48Functions.o
+                0x00000192                USART_print
+ .text.ADC_GetVal
+                0x000001ce       0x22 m48Functions.o
+                0x000001ce                ADC_GetVal
+ .text.Init_Timer2
+                0x000001f0       0x18 m48Init.o
+                0x000001f0                Init_Timer2
+ .text.Timer2_Start
+                0x00000208        0xe m48Init.o
+                0x00000208                Timer2_Start
+ .text.Timer2_Stop
+                0x00000216        0x6 m48Init.o
+                0x00000216                Timer2_Stop
+ .text.EXT_Int_Init
+                0x0000021c        0xc m48Init.o
+                0x0000021c                EXT_Int_Init
+ .text.Init_Port
+                0x00000228        0xe m48Init.o
+                0x00000228                Init_Port
+ .text.Init_Uart
+                0x00000236       0x18 m48Init.o
+                0x00000236                Init_Uart
+ .text.Enable_PRR
+                0x0000024e       0x24 m48Init.o
+                0x0000024e                Enable_PRR
+ .text.ADC_Init
+                0x00000272       0x18 m48Init.o
+                0x00000272                ADC_Init
+ .text.Mcu_Init
+                0x0000028a       0x1e m48Init.o
+                0x0000028a                Mcu_Init
+ .text.__vector_11
+                0x000002a8       0x14 M48Interrupts.o
+                0x000002a8                __vector_11
+ .text.__vector_9
+                0x000002bc       0x5c M48Interrupts.o
+                0x000002bc                __vector_9
+ .text.__vector_1
+                0x00000318       0x5a M48Interrupts.o
+                0x00000318                __vector_1
+ .text.__vector_2
+                0x00000372       0x1e M48Interrupts.o
+                0x00000372                __vector_2
+ .text.main     0x00000390      0x15a picoPowerM48_fuelCounter.o
+                0x00000390                main
+ .text.libgcc.div
+                0x000004ea       0x28 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+                0x000004ea                __udivmodhi4
+                0x00000512                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000512        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+                0x00000512                _exit
+                0x00000512                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000512        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000516                _etext = .
+
+.data           0x00800100        0x6 load address 0x00000516
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm48pa.o
+ .data          0x00800100        0x0 BT_Connected.o
+ .data          0x00800100        0x0 m48Eeprom.o
+ .data          0x00800100        0x0 m48Functions.o
+ .data          0x00800100        0x0 m48Init.o
+ .data          0x00800100        0x0 M48Interrupts.o
+ .data          0x00800100        0x0 picoPowerM48_fuelCounter.o
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_udivmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1051/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800100        0x5 picoPowerM48_fuelCounter.o
+ *(.gnu.linkonce.d*)
+                0x00800106                . = ALIGN (0x2)
+ *fill*         0x00800105        0x1 
+                0x00800106                _edata = .
+                0x00800106                PROVIDE (__data_end, .)
+
+.bss            0x00800106        0x9
+                0x00800106                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.tmr2_cnt  0x00800106        0x2 M48Interrupts.o
+ .bss.seconds   0x00800108        0x1 M48Interrupts.o
+                0x00800108                seconds
+ .bss.ticks     0x00800109        0x2 M48Interrupts.o
+                0x00800109                ticks
+ .bss.state     0x0080010b        0x1 M48Interrupts.o
+                0x0080010b                state
+ .bss.timeToSave
+                0x0080010c        0x1 picoPowerM48_fuelCounter.o
+ .bss.timerTicks
+                0x0080010d        0x2 picoPowerM48_fuelCounter.o
+ *(COMMON)
+                0x0080010f                PROVIDE (__bss_end, .)
+                0x00000516                __data_load_start = LOADADDR (.data)
+                0x0000051c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080010f        0x0
+                0x0080010f                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080010f                PROVIDE (__noinit_end, .)
+                0x0080010f                _end = .
+                0x0080010f                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 BT_Connected.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 m48Eeprom.o
+ .comment       0x00000000       0x31 m48Functions.o
+ .comment       0x00000000       0x31 m48Init.o
+ .comment       0x00000000       0x31 M48Interrupts.o
+ .comment       0x00000000       0x31 picoPowerM48_fuelCounter.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x168
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 BT_Connected.o
+ .debug_aranges
+                0x00000020       0x40 m48Eeprom.o
+ .debug_aranges
+                0x00000060       0x38 m48Functions.o
+ .debug_aranges
+                0x00000098       0x78 m48Init.o
+ .debug_aranges
+                0x00000110       0x38 M48Interrupts.o
+ .debug_aranges
+                0x00000148       0x20 picoPowerM48_fuelCounter.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xd94
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2af BT_Connected.o
+ .debug_info    0x000002af      0x389 m48Eeprom.o
+ .debug_info    0x00000638      0x17a m48Functions.o
+ .debug_info    0x000007b2      0x1ae m48Init.o
+ .debug_info    0x00000960      0x117 M48Interrupts.o
+ .debug_info    0x00000a77      0x31d picoPowerM48_fuelCounter.o
+
+.debug_abbrev   0x00000000      0x5cb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x17d BT_Connected.o
+ .debug_abbrev  0x0000017d      0x15c m48Eeprom.o
+ .debug_abbrev  0x000002d9      0x115 m48Functions.o
+ .debug_abbrev  0x000003ee       0x74 m48Init.o
+ .debug_abbrev  0x00000462       0x71 M48Interrupts.o
+ .debug_abbrev  0x000004d3       0xf8 picoPowerM48_fuelCounter.o
+
+.debug_line     0x00000000      0x785
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x19a BT_Connected.o
+ .debug_line    0x0000019a      0x155 m48Eeprom.o
+ .debug_line    0x000002ef      0x105 m48Functions.o
+ .debug_line    0x000003f4      0x183 m48Init.o
+ .debug_line    0x00000577       0xee M48Interrupts.o
+ .debug_line    0x00000665      0x120 picoPowerM48_fuelCounter.o
+
+.debug_frame    0x00000000      0x324
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 BT_Connected.o
+ .debug_frame   0x00000050       0xc4 m48Eeprom.o
+ .debug_frame   0x00000114       0x68 m48Functions.o
+ .debug_frame   0x0000017c       0xd4 m48Init.o
+ .debug_frame   0x00000250       0xb0 M48Interrupts.o
+ .debug_frame   0x00000300       0x24 picoPowerM48_fuelCounter.o
+
+.debug_str      0x00000000      0x48f
+ *(.debug_str)
+ .debug_str     0x00000000      0x1c5 BT_Connected.o
+                                0x1f9 (size before relaxing)
+ .debug_str     0x000001c5      0x136 m48Eeprom.o
+                                0x2ab (size before relaxing)
+ .debug_str     0x000002fb       0x3a m48Functions.o
+                                0x1b1 (size before relaxing)
+ .debug_str     0x00000335       0x82 m48Init.o
+                                0x1dc (size before relaxing)
+ .debug_str     0x000003b7       0x5f M48Interrupts.o
+                                0x1a4 (size before relaxing)
+ .debug_str     0x00000416       0x79 picoPowerM48_fuelCounter.o
+                                0x29f (size before relaxing)
+
+.debug_loc      0x00000000      0x6f5
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xe3 BT_Connected.o
+ .debug_loc     0x000000e3      0x2f9 m48Eeprom.o
+ .debug_loc     0x000003dc      0x13f m48Functions.o
+ .debug_loc     0x0000051b      0x131 M48Interrupts.o
+ .debug_loc     0x0000064c       0xa9 picoPowerM48_fuelCounter.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x108
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 BT_Connected.o
+ .debug_ranges  0x00000010       0x30 m48Eeprom.o
+ .debug_ranges  0x00000040       0x28 m48Functions.o
+ .debug_ranges  0x00000068       0x68 m48Init.o
+ .debug_ranges  0x000000d0       0x28 M48Interrupts.o
+ .debug_ranges  0x000000f8       0x10 picoPowerM48_fuelCounter.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(picoPowerM48_fuelCounter.elf elf32-avr)
+LOAD linker stubs
